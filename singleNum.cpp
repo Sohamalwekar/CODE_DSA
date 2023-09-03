@@ -13,6 +13,7 @@ int singleNumber(const vector<int> &A) {
 
 int main() {
     vector<int> A = {1, 1, 2, 2, 3};
-    cout << "Single Number is:"+singleNumber(A);
+    cout<<"Single Number is:";
+    cout <<singleNumber(A);
     return 0;
 }
